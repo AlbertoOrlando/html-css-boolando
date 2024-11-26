@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+
+header{
+    height: 80px;
+    background-color: orange;
+}
+
+/* footer */
+
+footer{
+    height: 100px;
+    background-color: black;
+}
+
+/* main content setup */
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* max-width: 100%; */
+}
+
+.product{
+   width: 30%;
+   /* debug */
+   /* background-color: gray;
+   height: 150px;
+   border: 2px solid black; */
+   margin-bottom: 10px;
+}
+
+.productlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%; */
+}
+
+.dimeimg{
+    width: 300px;
+}
