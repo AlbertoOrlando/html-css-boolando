@@ -51,3 +51,16 @@ main{
 .dimeimg{
     width: 300px;
 }
+
+.price{
+    display: block;
+}
+
+.redcol{
+    color: red;
+}
+
+.blackcol{
+    color: gray;
+    text-decoration: line-through;
+}
