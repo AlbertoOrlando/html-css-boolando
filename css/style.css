@@ -97,3 +97,6 @@ main{
 .product:hover .img2{
     display: block;
 }
+.discount-label3:hover .redcolor{
+    color: red;
+}
