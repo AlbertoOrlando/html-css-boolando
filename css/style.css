@@ -35,21 +35,17 @@ main{
    height: 150px;
    border: 2px solid black; */
    margin-bottom: 10px;
+   position: relative;
 }
 
 .productlist{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 90%; */
 }
 
 .dimeimg{
-    width: 300px;
+    max-width: 100%;
 }
 
 .price{
@@ -63,4 +59,12 @@ main{
 .blackcol{
     color: gray;
     text-decoration: line-through;
+}
+
+.discount-label{
+    padding: 5px;
+    background-color: red;
+    font-size: 15px;
+    width: max-content;
+    position: absolute;
 }
